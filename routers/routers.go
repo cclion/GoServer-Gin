@@ -1,6 +1,7 @@
 package routers
 
 import (
+	"ginserver/controllers"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -16,6 +17,8 @@ func InitRouter()*gin.Engine  {
 	r.GET("/ping", func(c *gin.Context) {
 		c.String(http.StatusOK, "pong")
 	})
+
+	r.POST("/regist",controllers.Regist)
 
 
 	r.GET("/oauth", func(req *gin.Context) {
