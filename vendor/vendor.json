@@ -75,6 +75,12 @@
 			"revisionTime": "2018-12-13T03:20:17Z"
 		},
 		{
+			"checksumSHA1": "uXKUYutPQkV1SnzSn2KNrUokpVY=",
+			"path": "github.com/go-ini/ini",
+			"revision": "c498c36b6fd97d1f7eed886502ed3e9afa989ad3",
+			"revisionTime": "2018-12-22T14:55:11Z"
+		},
+		{
 			"checksumSHA1": "mE9XW26JSpe4meBObM6J/Oeq0eg=",
 			"origin": "github.com/gin-gonic/gin/vendor/github.com/golang/protobuf/proto",
 			"path": "github.com/golang/protobuf/proto",
